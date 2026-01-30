@@ -4,6 +4,7 @@
   --color-dark: #0e1011;
   --color-primary: #ececec;
   --color-primary-dark: #ffffff1c;
+  --radius-2.5xl: 20px;
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
