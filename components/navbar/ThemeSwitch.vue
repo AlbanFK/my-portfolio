@@ -14,7 +14,6 @@ const onToggle = () => {
 <template>
   <div
     class="w-7.5 h-5 flex items-center bg-primary dark:bg-primary-dark rounded-full p-1.5 transition duration-300 ease-in-out cursor-pointer"
-    :class="{ 'bg-': toggleActive }"
     @click="onToggle"
   >
     <div
