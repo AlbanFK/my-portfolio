@@ -16,7 +16,7 @@ defineProps({
     <div
       v-if="$slots.topCorner"
       :class="[
-        'top-0 left-0 bg-default rounded-br-2.5xl card-tl-corner',
+        'top-0 left-0 bg-default rounded-br-2.5xl card-tl-corner dark:text-white',
         isDefaultContainer
           ? 'fixed z-50 px-6.5 pb-6 pt-7 before:top-3! after:left-3!'
           : 'py-2 px-4 absolute',
@@ -27,7 +27,7 @@ defineProps({
     <slot />
     <div
       v-if="$slots.bottomCorner"
-      class="py-2 px-4 absolute bottom-0 right-0 bg-default rounded-tl-2.5xl card-br-corner"
+      class="py-2 px-4 absolute bottom-0 right-0 bg-default rounded-tl-2.5xl card-br-corner dark:text-white"
     >
       <slot name="bottomCorner" />
     </div>
