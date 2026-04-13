@@ -10,11 +10,15 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
 
-  modules: ["@nuxtjs/google-fonts"],
+  modules: ["@nuxtjs/google-fonts", "@nuxt/image"],
 
   googleFonts: {
     families: {
       "DM+Sans": true,
     },
+  },
+
+  image: {
+    domains: ["hanssen-template.framer.website"],
   },
 });
