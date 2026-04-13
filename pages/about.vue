@@ -1,7 +1,12 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>About</div>
+  <PageContainer>
+    <template #heroBtCorner>
+      <span>hello world</span>
+    </template>
+    <template #contain> About </template>
+  </PageContainer>
 </template>
 
 <style scoped></style>
